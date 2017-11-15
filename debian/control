@@ -1,0 +1,12 @@
+Package: wise-x-theme
+Priority: optional
+Section: universe/gnome
+Maintainer: Ikem Krueger <ikem.krueger@googlemail.com>
+Architecture: all
+Version: 1.0.2
+Installed-Size: 1292
+Depends: shiki-colors-metacity-theme, mint-box-icons, dmz-cursor-theme
+Description: Wise-X GTK theme
+Homepage: http://linuxmint-art.org/content/show.php/?content=158775
+ A theme with the colors from Mint-X and the button styles from Shiki-Wise.
+
