@@ -6,4 +6,4 @@ Wise-X is a GTK+ theme with the colors from Mint-X and the button styles from Sh
 
 | Operating system | Dependencies         | Status | License |
 | :--------------- | :------------------- | :----- | :------ |
-| Linux            | -                    | RC-1   | GPL-3.0 |
+| Linux            | GTK+                 | RC-1   | GPL-3.0 |
