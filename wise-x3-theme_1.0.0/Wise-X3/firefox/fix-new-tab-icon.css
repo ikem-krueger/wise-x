@@ -1,0 +1,33 @@
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+
+/* New tab button */
+#menu_newNavigatorTab .menu-iconic-icon,
+#appmenu_newTab_popup .menu-iconic-icon,
+#context-openlinkintab .menu-iconic-icon {
+list-style-image: url("moz-icon://stock/tab-new?size=menu") !important;
+background: url("moz-icon://stock/tab-new?size=menu") center no-repeat !important;
+}
+
+#new-tab-button .toolbarbutton-icon {
+list-style-image: url("moz-icon://stock/tab-new?size=toolbar") !important;
+background: url("moz-icon://stock/tab-new?size=toolbar")  center no-repeat !important;
+}
+
+#TabsToolbar #new-tab-button .toolbarbutton-icon {
+list-style-image: url("moz-icon://stock/add") !important;
+background: url("moz-icon://stock/add") center no-repeat !important;
+}
+
+/* New window button */
+#menu_newNavigator .menu-iconic-icon,
+#appmenu_newNavigator .menu-iconic-icon,
+#context-openlink .menu-iconic-icon {
+list-style-image: url("moz-icon://stock/window-new?size=menu") !important;
+background: url("moz-icon://stock/window-new?size=menu") center no-repeat !important;
+}
+
+#new-window-button .toolbarbutton-icon {
+list-style-image: url("moz-icon://stock/window-new?size=toolbar") !important;
+background: url("moz-icon://stock/window-new?size=toolbar")  center no-repeat !important;
+}
+

@@ -1,0 +1,30 @@
+@namespace url(http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul);
+
+/* Tab context menu */
+#context_reloadTab + menuseparator,
+#context_closeTab {
+  display: none !important;
+}
+
+/* Page context menu */
+#context-back, 
+#context-forward, 
+#context-reload, 
+#context-stop, 
+#context-sep-stop,
+#context-inspect,
+#context-sendimage,
+#context-viewimageinfo,
+#context-setDesktopBackground {
+  display:none !important;
+}
+
+/* Link context menu */
+menuitem[label="Adblock Plus: Block image…"],
+#inspectThisPage,
+#inspect-separator,
+#abppa-contextmenu,
+#inspectThisFrame {
+  display:none !important;
+}
+
